@@ -13,14 +13,17 @@
 
 img[src^='./img/p'] {
     position: absolute;
-    top: 205px;
-    left: 250px;
+    top: 220px;
+    left: 264px;
     z-index: 2;
     cursor: pointer;
+    width: 100px;
 }
 
 img[src^='./img/t'] {
     position: absolute;
-    top: 20px;
-    left: 45px;
+    top: 40px;
+    left: 66px;
+    transition: all 4s;
+    width: 500px;
 }
